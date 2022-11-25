@@ -71,7 +71,8 @@ figure.foto-legenda figcaption{
 }
 /*Formatando opacidade quando se passa o mouse por cima*/
 figure.foto-legenda:hover figcaption{
-    opacity: 1;
+    opacity: 0.9;
+    background-color: #000;
 }
 /*Formatando o menu*/
 nav#menu{
