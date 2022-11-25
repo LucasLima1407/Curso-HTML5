@@ -2,9 +2,24 @@ p{
     text-align: justify;
     text-indent: 50px;
 }
+/*Adicionando uma imagem ao fundo do site e alterando a cor do background*/
 body{
     background-image: url("Imagens/FundoDoSite.jpg");
     background-color: whitesmoke;
+}
+/*Alterando apenas a parte dentro da div que tem no body*/
+div#interface{
+    width: 1100px;
+    margin: -20px auto 0px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+/*Alterando a posição do oculos na tela*/
+header#cabeçalho img#icone{
+    position: absolute;
+    left: 1030px;
+    top: 40px;
 }
 /*Formatando posição, bordas e sombras*/
 figure.foto-legenda{
