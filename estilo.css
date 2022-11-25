@@ -6,18 +6,18 @@ body{
     background-image: url("Imagens/FundoDoSite.jpg");
     background-color: whitesmoke;
 }
-
+/*Formatando posição, bordas e sombras*/
 figure.foto-legenda{
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
 }
-
+/*Formatação do tamanho da imagem*/
 figure.foto-legenda img{
     width: 100%;
     height: 100%;
 }
-
+/*Formatação de legenda de imagem*/
 figure.foto-legenda figcaption{
     opacity: 0;
     position:absolute;
@@ -26,12 +26,38 @@ figure.foto-legenda figcaption{
     color: white;
     width: 100%;
     height: 100%;
+    /*Cria um espaço*/
     padding: 10px;
     box-sizing: border-box;
     transition: opacity 1s;
     font-size: xx-large;
 }
-
+/*Formatando opacidade quando se passa o mouse por cima*/
 figure.foto-legenda:hover figcaption{
     opacity: 1;
+}
+/*Formatando o menu*/
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    /*Remove os símbolos ou números da lista*/
+    list-style: none;
+    /*Menu em maiúsculo*/
+    text-transform: uppercase;
+    /*Para flutuar pela tela*/
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+nav#menu li{
+    /*Coloca os itens horizontalmente*/
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    /*Controla o espaço entre as opções da lista*/
+    margin: 2px;
+}
+nav#menu h1{
+    display: none;
 }
