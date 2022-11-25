@@ -19,7 +19,29 @@ div#interface{
 header#cabeçalho img#icone{
     position: absolute;
     left: 1030px;
-    top: 40px;
+    top: 65px;
+}
+header#cabeçalho{
+    /*Adicionando uma borda para separar esse header do resto da página*/
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    /*Adicionando uma logo e colocando ela mais para baix na tela */
+    background: url(Imagens/glass-logo-peq.jpg) no-repeat 0px 100px;
+}
+
+header#cabeçalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    /*Modificando a cor e alterando a sombra do primeiro título de Google Glass*/
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    margin-bottom: 0px;
+}
+header#cabeçalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+    font-size: 15pt;
+    margin-top: 0px;
 }
 /*Formatando posição, bordas e sombras*/
 figure.foto-legenda{
