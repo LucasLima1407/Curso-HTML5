@@ -57,7 +57,23 @@ nav#menu li{
     padding: 10px;
     /*Controla o espaço entre as opções da lista*/
     margin: 2px;
+    transition: background-color 1s;
 }
+/*Quando você passa o mouse o background se altera*/
+nav#menu li:hover{
+    background-color: #606060;
+}
+/*Não mostra mais o título de menu principal*/
 nav#menu h1{
     display: none;
+}
+/*Alterando a cor quando você clica no item e retirando a sublinha depois que vc clicou a primeira vez*/
+nav#menu a{
+    color: #000;
+    text-decoration: none;
+}
+/*Quando o mouse passar sobre um item do menu ele vai ficar sublinhado*/
+nav#menu a:hover{
+    color: #fff;
+    text-decoration: underline;
 }
