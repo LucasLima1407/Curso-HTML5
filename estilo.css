@@ -95,6 +95,7 @@ nav#menu li{
     padding: 10px;
     /*Controla o espaço entre as opções da lista*/
     margin: 2px;
+    /*Demora um certo tempo para que a cor do background seja alterada*/
     transition: background-color 1s;
 }
 /*Quando você passa o mouse o background da opção se altera*/
