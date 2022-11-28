@@ -141,7 +141,7 @@ footer#rodapé a{
     text-decoration: none;
     color: #606060;
 }
-/*COnfigurando para eles ficarem sublinhados quando o mouse passar por eles*/
+/*Configurando para eles ficarem sublinhados quando o mouse passar por eles*/
 #fb:hover{ 
     text-decoration: underline;
 }
@@ -154,5 +154,22 @@ aside#lateral{
     display: block;
     float: right;
     width: 350px;
+}
+/*Formatando a a tabela com as bordas*/
+#tabelaglass{
+    border: 1px solid #606060;
+    /*Diminuindo o espaço entre as bordas para quee elas não fiquem separadas*/
+    border-spacing: 0px;
+    /*Consertando as margens*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabelaglass td{
+    /*Colocando a borda entre as colunas*/
+    border: 1px solid #606060;
+    /*Espaçando as palavras das bordas*/
+    padding: 10px;
+    /*Alinhando os textos de td ap centro*/
+    text-align: center;
 }
 
