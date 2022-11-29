@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        function acenderLampada(){
+            /*Vai alterar a imagem que estava no id Luz*/
+            document.getElementById("Luz").src = "Imagens/lampada-acesa.jpg";
+        }
+        function apagarLampada(){
+            document.getElementById("Luz").src = "Imagens/lampada-apagada.jpg";
+        }
+        function quebrarLampada(){
+            document.getElementById("Luz").src = "Imagens/lampada-quebrada.jpg";
+        }
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste JavaScript</title>
+</head>
+<body>
+    <h1>Acenda a lâmpada</h1>
+    <!--Quando o usuário clicar na foto algo irá acontecer, nesse caso ele irá pra função acenderLampada-->
+    <!--onmouse move para quando o mouse passar por cima vai chamar a função-->
+    <img src="Imagens/lampada-apagada.jpg" alt="" id="Luz" onmousemove="acenderLampada()" onmouseout="apagarLampada()" onclick="quebrarLampada()">
+
+</body>
+</html>
