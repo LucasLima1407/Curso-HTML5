@@ -6,6 +6,14 @@ p{
 body{
     background-image: url("Imagens/FundoDoSite.jpg");
     background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #606060;
+}
+a:hover{
+    text-decoration: underline;
 }
 /*Alterando apenas a parte dentro da div que tem no body*/
 div#interface{
@@ -119,7 +127,7 @@ nav#menu a:hover{
 /*Transformando a seção principal para ficar à esquerda da tela, como um bloco de 675px e com uma borda com um padding á direita para não encostar na borda*/
 section#corpo{
     display: block;
-    width: 675px;
+    width: 650px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 20px;
@@ -155,6 +163,10 @@ aside#lateral{
     display: block;
     float: right;
     width: 350px;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
 /*Formatando a a tabela com as bordas*/
 #tabelaglass{
@@ -172,5 +184,45 @@ aside#lateral{
     padding: 10px;
     /*Alinhando os textos de td ap centro*/
     text-align: center;
+}
+/*Modificando apenas os headers h2 dentro do article*/
+#noticia-principal h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #ddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+#cabeçalho-artigo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#cabeçalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #fff;
+
+}
+#cabeçalho-artigo h3{
+    font-size: 10pt;
+    color: #606060;
+}
+h3.right{
+    text-align: right;
+}
+#lateral h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #fff;
+    padding: 5px;
 }
 
