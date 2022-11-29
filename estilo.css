@@ -224,4 +224,33 @@ h3.right{
     font-size: 13pt;
     color: #fff;
     padding: 5px;
+<<<<<<< Updated upstream
 }
+=======
+}
+/*Quando formos modificar uma classe utilizamsos . ao invés de # */
+#tabelaglass td.ce{
+    background-color: #606060;
+    color: #fff;
+    /*Alinhamento vertical*/
+    vertical-align: top;
+    font-weight: bold;
+}
+#tabelaglass td.cd{
+    background-color: #cecece;
+}
+#tabelaglass caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bold;
+}
+/*Alterando a formatação apenas do mar/2013 na caption*/
+#tabelaglass caption span{
+    display: block;
+    float: right;
+    color: #000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+/*Ver mais sobre font-display*/
+>>>>>>> Stashed changes
