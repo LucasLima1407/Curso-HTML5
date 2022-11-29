@@ -1,14 +1,36 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../estilo.css">
+    <title>Tudo sobre o Google Glass</title>
+    <!--Configura o cabeçalho da página-->
+    <script src="_javascript/funcoes.js">  
+    </script>
+</head>
 
-[AQUI ENTRA UMA FOTO]
-
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body> <!--Cria e modifica o "corpo da página"-->
+    <div id="interface">
+        <header id="cabeçalho">
+        <hgroup> <!--Grupo hierarquizado de títulos h1 principal e assim por diante-->
+        <h1> Google Glass</h1>
+        <h2> A revolução do Google está chegando</h2>
+        
+    </hgroup>
+    <img id="icone" src="Imagens/glass-oculos-preto-peq.png" alt="">
+    <nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul type="disc"> <!--Type a para lista alfabética, Type 1 para numérica em listas ordenadas e Type I para numeração em romano se for um valor inválido ele vira enumerada "start=" muda o começo da lista e só aceita valores numéricos(Em listas não numeradas é square, circle e disc)--> 
+    <li onmouseover="mudarImagem('home')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="_textos/index-txt.html">Home</a></li>
+    <li onmouseover="mudarImagem('especificacoes')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="_textos/specs-txt.html">Especificações</a></li>
+    <li onmouseover="mudarImagem('fotos')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="_textos/fotos-txt.html">Fotos</a></li>
+    <li onmouseover="mudarImagem('multimidia')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="_textos/multimidia-txt.html">Multimídia</a></li>
+    <li onmouseover="mudarImagem('contato')" onmouseout="mudarImagem('glass-oculos-preto-peq')" ><a href="_textos/fale-conosco-txt.html">Fale Conosco</a></li>
+    </ul>
+    </nav>
+</header>
 
 Glass > Especificações
 Raio-X no Google Glass
@@ -18,6 +40,12 @@ Atualizado em 01/Maio/2013
 Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
 
 [AQUI ENTRA UMA IMAGEM]
-
-Copyright 2013 - by Gustavo Guanabara<
-Facebook | Twitter
+<footer id="rodapé">
+    <p>&copy <!--Símbolo de Copyright--> Copyright 2013 - by Gustavo Guanabara  <br/><!---Quebra de Linha-->
+        <nav id="menur">
+        <a id="fb" href="https://www.youtube.com/@CursoemVideo" target="_blank">Facebook</a>  | <a id="tw" href="https://twitter.com/guanabara" target="_blank">Twitter</a> </p>
+    </nav>
+    </footer>  
+        </div>  
+    </body>
+    </html>
