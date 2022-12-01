@@ -256,15 +256,15 @@ section#conteudo {
 	margin: auto;
 }
 
-iframe#frame-spec {
+#frame-spec {
 	width: 410px;
 	height: 280px;
 	border: none;
     /*Faz com que alguns conteúdos caibam na página caso sejam grandes demais*/
-	overflow:hidden
+	overflow: none;
 }
 
-#frame-spec::-webkit-scrollbar{
+iframe#frame-spec::-webkit-scrollbar{
     display: none;
 }
 div#tv-radio {
@@ -280,7 +280,6 @@ audio#musica {
 	left: 573px;
 	top: 500px;
 	width: 300px;
-
 }
 
 video#filme {
@@ -307,7 +306,8 @@ ul#album-fotos li {
 	border: 5px solid #ffffff;
 	background-color: #ffffff;
 	box-shadow:1px 1px 3px rgba(0,0,0,.4);
-	-webkit-transition: all .3s ease-in;
+    /*Timar a transição quando o vc coloca o mouse em cima da imagem*/
+	transition: all .3s ease-in;
 
 }
 
@@ -322,7 +322,8 @@ ul#album-fotos li span {
 }
 
 ul#album-fotos li:hover {
-	-webkit-transform: scale(1.5);
+    /*Aumenta o tamanho*/
+	transform: scale(1.5);
 
 }
 
