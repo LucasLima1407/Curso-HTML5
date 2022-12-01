@@ -257,14 +257,14 @@ section#conteudo {
 }
 
 iframe#frame-spec {
-	width: 390px;
+	width: 410px;
 	height: 280px;
 	border: none;
     /*Faz com que alguns contúdos caibam na página caso sejam grandes demais*/
 	overflow: hidden;
 }
 
-iframe#frame-spec::-webkit-scrollbar {
+iframe#frame-spec::-webkit-scrollbar{
 	display: none;
 }
 div#tv-radio {
