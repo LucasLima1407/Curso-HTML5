@@ -19,15 +19,15 @@
         <h2> A revolução do Google está chegando</h2>
         
     </hgroup>
-    <img id="icone" src="Imagens/glass-oculos-preto-peq.png" alt="">
+    <img id="icone" src="Imagens/especificacoes.png" alt="">
     <nav id="menu">
     <h1>Menu Principal</h1>
     <ul type="disc"> <!--Type a para lista alfabética, Type 1 para numérica em listas ordenadas e Type I para numeração em romano se for um valor inválido ele vira enumerada "start=" muda o começo da lista e só aceita valores numéricos(Em listas não numeradas é square, circle e disc)--> 
-    <li onmouseover="mudarImagem('home')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="projeto-glass.html">Home</a></li>
-    <li onmouseover="mudarImagem('especificacoes')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="specs-txt.html">Especificações</a></li>
-    <li onmouseover="mudarImagem('fotos')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="fotos-txt.html">Fotos</a></li>
-    <li onmouseover="mudarImagem('multimidia')" onmouseout="mudarImagem('glass-oculos-preto-peq')"><a href="multimidia-txt.html">Multimídia</a></li>
-    <li onmouseover="mudarImagem('contato')" onmouseout="mudarImagem('glass-oculos-preto-peq')" ><a href="fale-conosco-txt.html">Fale Conosco</a></li>
+    <li onmouseover="mudarImagem('home')" onmouseout="mudarImagem('especificacoes')"><a href="projeto-glass.html">Home</a></li>
+    <li onmouseover="mudarImagem('especificacoes')" onmouseout="mudarImagem('especificacoes')"><a href="specs-txt.html">Especificações</a></li>
+    <li onmouseover="mudarImagem('fotos')" onmouseout="mudarImagem('especificacoes')"><a href="fotos-txt.html">Fotos</a></li>
+    <li onmouseover="mudarImagem('multimidia')" onmouseout="mudarImagem('especificacoes')"><a href="multimidia-txt.html">Multimídia</a></li>
+    <li onmouseover="mudarImagem('contato')" onmouseout="mudarImagem('espeificacoes')" ><a href="fale-conosco-txt.html">Fale Conosco</a></li>
     </ul>
     </nav>
 </header>
@@ -43,12 +43,13 @@
         </header>    
 <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
     <section id="conteudo">
-        <img src="Imagens/glass-esquema-marcado.jpg" usemap="mapa-glass" alt="">
+        <!--Precisa da # antes do nome do mapa -->
+        <img src="Imagens/glass-esquema-marcado.jpg" usemap="#mapa-glass" alt="">
         <!--Vai mapear a imagem-->
         <map name="mapa-glass">
             <area shape="rect" coords="179, 202, 270, 260" href="google-glass-txt.html#tela" target="janela" alt="">
             <area shape="circle" coords="158, 243, 12" href="google-glass-txt.html#camera" target="janela" alt="">
-            <area shape="circle" coords="73,52,12" href="google-glass-txt.html#gadgets" target="janela" alt="">
+            <area shape="circle" coords="73,52,12" href="google-glass-txt.html#batEgd" target="janela" alt="">
             <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass-txt.html#sensores" target="janela" alt="">
         </map>
         <iframe src="google-glass-txt.html" name="janela" id="frame-spec" frameborder="0">
