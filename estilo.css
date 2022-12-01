@@ -260,6 +260,7 @@ iframe#frame-spec {
 	width: 390px;
 	height: 280px;
 	border: none;
+    /*Faz com que alguns contúdos caibam na página caso sejam grandes demais*/
 	overflow: hidden;
 }
 
@@ -270,7 +271,7 @@ div#tv-radio {
 	width: 900px;
 	height: 580px;
 	margin: auto;
-	background: url("../_imagens/radio-tv.png") no-repeat;
+	background: url("Imagens/radio-tv.png") no-repeat;
 }
 
 audio#musica {
@@ -441,3 +442,4 @@ fieldset#mensagem {
 fieldset#pedido {
 	background: url("Imagens/icone-pagamento.png") no-repeat 95% 95%;
 }
+/*Evitar formatar várias páginas em um único arquivo css*/
