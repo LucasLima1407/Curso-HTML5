@@ -249,45 +249,198 @@ h3.right{
     font-size: 8pt;
     margin-top: 10px;
 }
-/*Quando formos modificar uma classe utilizamsos . ao invés de # */
-#tabelaglass td.ce{
-    background-color: #606060;
-    color: #fff;
-    /*Alinhamento vertical*/
-    vertical-align: top;
-    font-weight: bold;
-}
-#tabelaglass td.cd{
-    background-color: #cecece;
-}
-#tabelaglass caption{
-    color: #888888;
-    font-size: 13pt;
-    font-weight: bold;
-}
-/*Alterando a formatação apenas do mar/2013 na caption*/
-#tabelaglass caption span{
-    display: block;
-    float: right;
-    color: #000;
-    font-size: 8pt;
-    margin-top: 10px;
-}
-/*Ver mais sobre font-display*//*Ver mais sobre font-display*/
+/*Ver mais sobre font-display*/
 /*Formatação specs*/
 section#conteudo {
 	width: 1000px;
 	margin: auto;
-
 }
 
-iframe#frame-spec {
-	width: 390px;
+#frame-spec {
+	width: 410px;
 	height: 280px;
 	border: none;
-	overflow: hidden;
+    /*Faz com que alguns conteúdos caibam na página caso sejam grandes demais*/
+	overflow: none;
 }
 
-iframe#frame-spec::-webkit-scrollbar {
-	display: none;
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
 }
+div#tv-radio {
+	width: 900px;
+	height: 580px;
+	margin: auto;
+	background: url("Imagens/radio-tv.png") no-repeat;
+}
+
+audio#musica {
+	display: block;
+	position: relative;
+	left: 573px;
+	top: 500px;
+	width: 300px;
+}
+
+video#filme {
+	display: block;
+	position: relative;
+	left: 90px;
+	top: 70px;
+	width: 440px;
+
+}
+ul#album-fotos {
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album-fotos li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow:1px 1px 3px rgba(0,0,0,.4);
+    /*Timar a transição quando o vc coloca o mouse em cima da imagem*/
+	transition: all .3s ease-in;
+
+}
+
+ul#album-fotos li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover {
+    /*Aumenta o tamanho*/
+	transform: scale(1.5);
+
+}
+
+ul#album-fotos li:hover span {
+	opacity:1;
+}
+
+ul#album-fotos li#foto01 {
+	background: url('Imagens/galeria-01.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+	background: url('Imagens/galeria-02.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+	background: url('Imagens/galeria-03.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+	background: url('Imagens/galeria-04.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+	background: url('Imagens/galeria-05.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+	background: url('Imagens/galeria-06.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+form {
+	width: 500px;
+	margin: auto;
+}
+
+input, textarea{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255,255,255,.8);
+}
+
+input:hover, textarea:hover {
+	background-color: #dddddd;
+}
+
+legend {
+	color: #888888;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif; 
+}
+
+fieldset {
+	border-color: #cecece;
+	margin: 20px;
+}
+
+fieldset#sexo {
+	width: 150px;
+}
+
+fieldset#usuario {
+	background: url("Imagens/icone-contato.png") no-repeat 95% 95%;
+}
+
+fieldset#endereco {
+	background: url("Imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+
+fieldset#mensagem {
+	background: url("Imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+
+fieldset#pedido {
+	background: url("Imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
+/*Evitar formatar várias páginas em um único arquivo css*/
