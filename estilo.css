@@ -285,21 +285,20 @@ audio#musica {
 	display: block;
 	position: relative;
 	left: 573px;
-	top: 300px;
+	top: 240px;
 	width: 300px;
 }
 
 video#filme {
 	display: block;
 	position: relative;
-	left: 90px;
-	top: 70px;
-	width: 440px;
-
+	left: 78px;
+	top: 110px;
+	width: 465px;
 }
 ul#album-fotos {
 	width: 700px;
-	margin: 0 auto;
+	margin:  auto;
 	padding: 50px;
 	overflow: hidden;
 	list-style: none;
