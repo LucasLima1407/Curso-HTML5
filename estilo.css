@@ -124,7 +124,7 @@ nav#menu a:hover{
     color: #fff;
     text-decoration: underline;
 }
-/*Transformando a seção principal para ficar à esquerda da tela, como um bloco de 675px e com uma borda com um padding á direita para não encostar na borda*/
+/*Transformando a seção principal para ficar à esquerda da tela, como um bloco de 650px e com uma borda com um padding á direita para não encostar na borda*/
 section#corpo{
     display: block;
     width: 650px;
@@ -225,7 +225,14 @@ h3.right{
     color: #fff;
     padding: 5px;
 }
-/*Quando formos modificar uma classe utilizamsos . ao invés de # */
+#um-dia{
+    height: 200px;
+    width: 300px;
+}
+#pg-prin{
+    width: 350px;
+}
+/*Quando formos modificar uma classe utilizamos . ao invés de # */
 #tabelaglass td.ce{
     background-color: #606060;
     color: #fff;
@@ -277,7 +284,7 @@ audio#musica {
 	display: block;
 	position: relative;
 	left: 573px;
-	top: 500px;
+	top: 300px;
 	width: 300px;
 }
 
