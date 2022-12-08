@@ -264,8 +264,8 @@ section#conteudo {
 }
 
 #frame-spec {
-	width: 410px;
-	height: 280px;
+	width: 440px;
+	height: 358px;
 	border: none;
     /*Faz com que alguns conteúdos caibam na página caso sejam grandes demais*/
 	overflow: none;
@@ -436,17 +436,21 @@ fieldset#sexo {
 
 fieldset#usuario {
 	background: url("Imagens/icone-contato.png") no-repeat 95% 95%;
+    width: 480px;
 }
 
 fieldset#endereco {
 	background: url("Imagens/icone-endereco.png") no-repeat 95% 95%;
+    width: 480px;
 }
 
 fieldset#mensagem {
 	background: url("Imagens/icone-mensagem.png") no-repeat 95% 95%;
+    width: 480px;
 }
 
 fieldset#pedido {
 	background: url("Imagens/icone-pagamento.png") no-repeat 95% 95%;
+    width: 480px;
 }
 /*Evitar formatar várias páginas em um único arquivo css*/
